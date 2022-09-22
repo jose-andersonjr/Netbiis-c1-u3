@@ -8,7 +8,7 @@ public class RaizExata {
         var raiz = Math.sqrt(numero);
         var raiz_exata = Math.round(raiz);
         if (raiz == raiz_exata){
-            JOptionPane.showMessageDialog(null, "A raiz exata do número é " + raiz);
+            JOptionPane.showMessageDialog(null, "A raiz exata do número "+numero+" é " + raiz);
         }else{
             JOptionPane.showMessageDialog(null, "O número inserido não possui raiz exata");
         }
