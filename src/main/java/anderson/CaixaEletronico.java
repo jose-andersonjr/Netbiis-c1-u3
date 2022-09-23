@@ -13,7 +13,7 @@ public class CaixaEletronico {
             notas50 = Math.floor(resto/50);
             resto = resto % 50;
             notas20 = Math.floor(resto/20);
-            resto = resto % 10;
+            resto = resto % 20;
             notas10 = Math.floor(resto/10);
             resto = resto % 10;
 
